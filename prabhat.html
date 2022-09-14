@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleprabhat.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Prabhat<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About Me</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Why Choose Me</h2>
+            <p>To get pixel perfect site as you desire.<br> Check few of my project to get the idea</p>
+            <a href="#menu" class="btn">My Projects</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="tittleText"><span>A</span>bout Me</h2>
+                <p>Front end developer who is proficient in HTML, CSS, Javascript. Self taught front end developer who have been freelancing
+                    since 2021. Currently based in Kathmandu, Nepal as a freelance web developer you can get a great website which can be used
+                    across all devices.<br><br>
+                    Front end developer who is proficient in HTML, CSS, Javascript. Self taught front end developer who have been freelancing
+                    since 2021. Currently based in Kathmandu, Nepal as a freelance web developer you can get a great website which can be used
+                    across all devices.Front end developer who is proficient in HTML, CSS, Javascript. Self taught front end developer who have been freelancing
+                    since 2021. Currently based in Kathmandu, Nepal as a freelance web developer you can get a great website which can be used
+                    across all devices.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="image/me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="tittle">
+            <h2 class="tittleText">My <span>P</span>rojects</h2>
+            <p>Feel free to check some of my projects</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <a href="prabhatkadel.com"><img src="image/camera.png" alt=""></a>
+                </div>
+                <div class="text">
+                    <h3>Camera</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/realstate.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Realstate</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/italy.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Italy</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/maldives.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Accounting firm</h3>
+                </div>
+            </div>  
+            <div class="box">  
+                <div class="imgBx">
+                    <img src="image/thailand.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Thailand</h3>
+                </div>
+            </div>    
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/turkey.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Turkey</h3>
+                </div>
+            </div>
+        </div>
+        <div class="tittle">
+            <a href="#" class="btn">View All</a>
+        </div>
+    </section>
+    
+
+    <section class="testimonials" id="testimonials">
+        <div class="tittle">
+            <h2 class="tittleText">My <span>P</span>rojects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/testi1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, architecto vero suscipit velit minima 
+                        ea maiores porro hic consectetur mollitia voluptates distinctio illo ad rerum quos, dolorem quis dolorum? 
+                        Aperiam.porro hic consectetur mollitia voluptates distinctio illo ad rerum quos, dolorem quis dolorum?</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="image/testi2.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, architecto vero suscipit velit minima 
+                        ea maiores porro hic consectetur mollitia voluptates distinctio illo ad rerum quos, dolorem quis dolorum? 
+                        Aperiam.porro hic consectetur mollitia voluptates distinctio illo ad rerum quos, dolorem quis dolorum?</p>
+                    <h3>Someone Famous</h3>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="tittleText"><span>C</span>ontact</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis fugiat dolor</p>
+        </div>
+        <form class="contactForm" action="https://formsubmit.co/pravat.kadel@gmail.com" method="POST">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="Name" required>
+            </div>
+            <input type="hidden" name="_next" value="https://prabhatkadel.com">
+
+
+            <div class="inputBox">
+                <input type="text" name="email" placeholder="Email" required>
+            </div>
+            <div class="inputBox">
+                <textarea name="message" placeholder="Message" required></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </section>
+
+    <div class="copyrightText">
+        <p>Copyright 2022 <a href="">Prabhat Kadel</a>. All Right Reserved</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styleprabhat.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>About me</title>
+
+    <style>
+
+      .aboutme {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        
+      }
+
+      .aboutme h1 {
+        font-size: 100px;
+      }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active"id="img"><img src="logo.png" alt=""></a>
+      
+          <a href="index.html">Home</a>
+          <a href="myproject.html">My Projects</a>
+          <a href="aboutme.html">About Me</a>
+          <a href="#four">Contact</a>
+  
+          
+      
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+  
+        <div>
+          <h2 id="des">Profecient in HTML, CSS, BOOTSTRAP, JAVASCRIPT</h2>
+          <p id="para">Contact me for your website needs</p>
+        </div>
+      
+        
+      
+      </nav>
+
+      <div class="aboutme">
+
+        <h1>about me</h1>
+        <h2>I am a web developer.</h2>
+
+        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, necessitatibus, voluptatem, distinctio eveniet illo placeat molestias perspiciatis atque ducimus dolores in ipsa iure eum voluptatibus dolorem earum? Rerum, necessitatibus saepe?</h4>
+      </div>
+
+
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+  
+    
+</body>
+</html>

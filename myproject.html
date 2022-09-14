@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleprabhat.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <style>
+
+        .description {
+          width: 100%;
+          height: 500px;
+        }
+        .projectimg {
+          padding: 0 10px ;
+        }
+
+        #imagereal {
+          width: 100%;
+          height: 500px;
+        }
+
+        #parag {
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+
+  <nav>
+
+    <div class="topnav" id="myTopnav">
+      <a href="prabhat.html" class="active"id="img"><img src="logo.png" alt=""></a>
+  
+      <a href="prabhat.html">Home</a>
+      <a href="myproject.html">My Projects</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="#four">Contact</a>
+
+      
+  
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div>
+      <h2 id="des">Profecient in HTML, CSS, BOOTSTRAP, JAVASCRIPT</h2>
+      <p id="para">Contact me for your website needs</p>
+    </div>
+  
+    
+  
+  </nav>
+
+  <div class="description">
+
+    <h2 id="des">Some of the project</h2>
+    <p id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, vero! Cupiditate, laudantium nulla nemo dicta incidunt illum, maxime corrupti laborum impedit officiis blanditiis quo error earum, dolorum veritatis iusto necessitatibus.</p>
+
+  </div>
+
+  <div class="projectimg">
+    
+    <img id="imagereal" src="realstate.png" alt="">
+    <img id="imagereal" src="camera.png" alt="">
+  </div>
+
+  
+        
+
+
+
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+      
+        
+      
+  
+    
+</body>
+</html>
