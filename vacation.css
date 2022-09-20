@@ -1,0 +1,739 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+header
+{
+    padding: 0 4.8rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+header li .logo 
+{
+    font-weight: 600;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: #111;
+}
+.logo span 
+{
+    color:#FD7792;
+}
+.navbar-list {
+    display: flex;
+    gap: 4.8rem;
+    list-style: none;
+  }
+  
+  .navbar-link:link,
+  .navbar-link:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #212529;
+    transition: all 0.3s;
+  }
+  
+  .navbar-link:hover,
+  .navbar-link:active {
+    color: #364fc7;
+  }
+  
+  .mobile-navbar-btn {
+    display: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-icon {
+    width: 3rem;
+    height: 3rem;
+    color: #212529;
+  }
+  
+  .mobile-nav-icon[name="close-outline"] {
+    display: none;
+  }
+  
+ 
+
+  .jumbo
+  {
+    background-image: url(image/bg.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .textdiv
+  {
+    width: 40%;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+  }
+  .textdiv h4
+  {
+    font-weight: 400;
+    font-size: 3em;
+  }
+  .textdiv h3
+  {
+    font-weight: 700;
+    font-size: 7em;
+  }
+  .btndiv
+  {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .headerbtn
+  {
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    background-color: #FD7792;
+    cursor: pointer;
+  }
+  .white
+  {
+    background-color: #fff;
+    color: #FD7792;
+  }
+  .form
+  {
+    width: 30%;
+    height: 60vh;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+  .form h5
+  {
+    font-weight: 500;
+    font-size: 3em;
+  }
+  .name
+  {
+    width: 90%;
+    border-radius:5px ;
+    height: 50px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    text-align: center;
+  }
+  .formitem
+  {
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    text-align: center;
+  }
+  
+  #aaa
+  {
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    text-align: center;
+  }
+  .btn 
+  {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FD7792;
+    cursor: pointer;
+  }
+  .cards
+  {
+    width: 100%;
+    height: 70vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -30px;
+  }
+  .card 
+{
+  width: 25%;
+  height: 60vh;
+  background-color: #fff;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.07);
+  border: 20px solid #fff;
+}
+.imgdiv1
+{
+  width: 100%;
+  height: 30vh;
+  background-image:url(image/img1.jpg);
+  background-size: cover;
+}
+.imgdiv2
+{
+  width: 100%;
+  height: 30vh;
+  background-image:url(image/img2.jpg);
+  background-size: cover;
+  
+}
+.imgdiv3
+{
+  width: 100%;
+  height: 30vh;
+  background-image:url(image/img3.jpg);
+  background-size: cover;
+  
+}
+.textdivcard
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 27vh;
+  align-items: center;
+  padding: 0 30px;
+}
+.textdivcard h4
+{
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.btncard
+{
+  width: 200px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FD7792;
+  cursor: pointer;
+}
+
+.rooms
+{
+  width: 100%;
+  height: 150vh;
+  
+  background-color: #F3F4F7;
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+.titlediv
+{
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 4.5em;
+}
+
+
+.roomdiv 
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+.cardleft
+{
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  background-color: #fff;
+}
+.cardleft:hover
+{
+  background-color: #FD7792;
+  color: #fff;
+}
+
+.roomimgdiv1
+{
+  background-image: url(image/room1.jpg);
+  width: 50%;
+  height: 60vh;
+  background-size: cover;
+}
+.roomimgdiv2
+{
+  background-image: url(image/room2.jpg);
+  width: 50%;
+  height: 60vh;
+  background-size: cover;
+}
+.roomimgdiv3
+{
+  background-image: url(image/room3.jpg);
+  width: 50%;
+  height: 60vh;
+  background-size: cover;
+}
+.roomimgdiv4
+{
+  background-image: url(image/room4.jpg);
+  width: 50%;
+  height: 60vh;
+  background-size: cover;
+}
+
+.roomtextdiv
+{
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.star
+{
+  color: #deb40d;
+  font-size: 1.5em;
+  
+}
+.roomtextdiv h3
+{
+  font-weight: 400;
+  font-size: 4em;
+}
+.info
+{
+  margin-top: 20px;
+}
+.info h5
+{
+  font-weight: 400;
+  font-size: 1.7em;
+}
+.info h5 span
+{
+  color: #c1bdbd;
+}
+.roombtn
+{
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #c1bdbd;
+}
+.client
+{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-color: #F3F4F7;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 200px;
+
+  
+}  
+.clientcard
+{
+  width: 100%;
+  height: 300px;
+  background-color: #F3F4F7;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 100px;
+  
+}
+.clientcards
+{
+  width: 30%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+#diff
+{
+  background-color: #FD7792;
+}
+.icon 
+{
+  color: #FD7792;
+  font-size: 3em;
+  position: relative;
+  top: -40px;
+}
+.circle1
+{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: url(image/img1.jpg);
+  background-size: cover;
+  position: relative;
+  top: 50px;
+  left: -30px;
+}
+.clientinfo
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70%;
+  padding-left: 10px;
+}
+
+.clientinfo h6
+{
+  font-weight: 300;
+  font-size: 1em;
+}
+.offer
+{
+  width: 100%;
+  height: 180vh;
+  background-color: #F3F4F7;
+  display: flex;
+  justify-content: space-evenly;
+} 
+.main
+{
+  width: 45%;
+  height: 180vh;
+  
+} 
+.offerimg
+{
+  width: 100%;
+  height: 140vh;
+  background-image: url(image/bg.jpg);
+  
+  overflow: hidden;
+  background-size: cover;
+}
+.imginfo
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imginfo h4
+{
+  font-weight: 500;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.offertext
+{
+  display: flex;
+  width: 45%;
+  height: 146vh;
+ margin-top: 200px;
+}
+.offerinfo
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.offerinfo h3
+{
+  font-weight: 400;
+  font-size: 2em;
+}
+.offercard
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  width: 100%;
+  height: 120vh;
+
+  
+}
+.offercards
+{
+  width: 48%;
+  height: 27vh;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.icon1
+{
+  font-size: 3em;
+  color: #FD7792;
+}
+.cardinfo
+{
+  width: 70%;
+}
+  
+  /* ===========================================
+  Responsive Codes 
+  ======================================= */
+  
+  /* 980px  */
+  @media (max-width: 62em) {
+    .mobile-navbar-btn {
+      display: block;
+      z-index: 999;
+      
+      color: #212529;
+    }
+  
+    .header {
+      position: relative;
+    }
+  
+    .header .logo {
+      width: 40%;
+    }
+  
+    .navbar {
+      /* display: none; */
+      width: 100%;
+      height: 100vh;
+      background: #e7f5ff;
+      position: absolute;
+      top: 0;
+      left: 0;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      /* to get the tranisition  */
+      transform: translateX(100%);
+      transition: all 0.5s linear;
+  
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  
+    .navbar-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .active .navbar {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+  
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+      display: block;
+    }
+  
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+      display: none;
+    }
+  }
+  
+  /* Below 560px  */
+  @media (max-width: 35em) {
+    .header {
+      padding: 0 2.4rem;
+    }
+  
+    .header .logo {
+      width: 60%;
+    }
+
+    .jumbo
+    {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .textdiv
+    {
+      
+      width: 100%;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+     
+    }
+
+    .textdiv h4
+    {
+      font-weight: 200;
+      font-size: 20px;
+      
+    }
+
+    .textdiv h3
+    {
+      font-size: 20px;
+    }
+
+    .btndiv
+    {
+      width: 95%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .form
+    {
+      width: 100%;
+    }
+
+    .cards
+    {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+    .card
+    {
+      width: 100%;
+    }
+
+    .rooms
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .titlediv
+    {
+      font-size: 2em;
+    }
+
+    .roomdiv
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .cardleft
+    {
+      width: 100%;
+    }
+    .client
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      
+      margin-bottom: 200px;
+    }
+    .clientcard
+    {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .clientcards
+    {
+      width: 100%;
+      height: 200px;
+    }
+
+    .offer
+    {
+      display: flex;
+      flex-direction: column;
+      
+      width: 100%;
+      height: auto;
+    }
+    .main
+    {
+     display: none;
+     
+    }
+
+    .offertext
+    {
+      width: 100%;
+      height: auto;
+     
+      
+    }
+
+    .offercard
+    {
+      width: 100%;
+      height: auto;
+    }
+
+    .offercards
+    {
+      width: 100%;
+      height: 200px;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+    .icon1
+    {
+      font-size: 5em;
+    }
+
+    .cardinfo
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+  

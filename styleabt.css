@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 1000px;
+}
+a 
+{
+    text-decoration: none;
+}
+li 
+{
+list-style: none;
+}
+.navbar 
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+background-color: #fff;
+}
+.nav-links a 
+{
+color: #111;
+}
+/* LOGO */
+.logo 
+{
+color: #111;
+font-weight: 700;
+font-size: 2em;
+text-decoration: none;
+}
+.logo span
+{
+color: #05B772;
+}
+/* NAVBAR MENU */
+.menu 
+{
+display: flex;
+gap: 1em;
+font-size: 18px;
+z-index: 100;
+}
+.menu li:hover 
+{
+background-color:#05B772 ;
+border-radius: 5px;
+transition: 0.3s ease;
+}
+.menu li 
+{
+padding: 5px 14px;
+}
+input[type=checkbox]
+{
+display: none;
+} 
+/*HAMBURGER MENU*/
+.hamburger 
+{
+display: none;
+font-size: 24px;
+user-select: none;
+}
+.banner
+{position: relative;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    
+    align-items: center;
+    background:
+     linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+     url('image/bg.jpg');
+    background-size: cover;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+.banner .content h2 
+{
+    font-size: 3em;
+    color: #fff;
+}
+.banner .content p 
+{
+    font-size: 1em;
+    color: #fff;
+
+}
+.aboutus
+{
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+}
+.imgbx
+{
+    width: 50%;
+    height: 80vh;
+    background-image: url(image/aaa.jpg);
+    background-size: cover;
+}
+.textbx
+{
+    width: 50%;
+    height: 80vh;
+    text-align: left;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+.textbx h5
+{
+    color: #05B772;
+}
+.textbx h3
+{
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.detail
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+.detail .fa-solid
+{
+    color: #05B772;
+    font-size: 1.5em;
+}
+.vision
+{
+    width: 45%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.mission
+{
+    width: 45%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.ourNeed
+{
+    width: 100%;
+    height: 60vh;
+    background:
+     linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+     url('image/team.jpg');
+    background-size: cover;
+    margin-top: 50px;
+    
+    
+}
+.textNeed
+{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+}
+.textNeed h3
+{
+    font-weight: 600;
+    font-size: 2em;
+}
+.btn 
+{
+    font-size: 1em;
+    color: #fff;
+    background: #05B772;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    
+}
+.btn:hover 
+{
+    letter-spacing: 6px;
+}
+.team
+{
+   width: 100%;
+   height: 120vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-top: 50px;
+   
+}
+.black
+{
+    color: #111;
+}
+.expert
+{
+    width: 100%;
+    height: 75vh;
+    
+}
+.imgcards
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgcard1
+{
+    width:25% ;
+    height: 75vh;
+    background-image: url(image/expert1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.imgcard2
+{
+    width:25% ;
+    height: 75vh;
+    background-image: url(image/expert2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.imgcard3
+{
+    width:25% ;
+    height: 75vh;
+    background-image: url(image/expert3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.final
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: #1D222A;
+}
+.main
+{
+    color: #fff;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    text-align: center;
+}
+.main .logo
+{
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+}
+.main .logo span
+{
+    color: #05B772;
+    font-size: 2em;
+}
+
+.social .fa-brands
+{
+    color: white;
+}
+.circle1
+{
+    background-color: #05B772;
+    width:40px;
+    height:40px;
+  
+    border-radius:100%;
+    line-height:40px;
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+}
+.info
+{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    
+}
+.inform 
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+.inform .logos .fa-solid
+{
+    color: #05B772;
+    font-size: 1.1em;
+}
+.logos a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+.contactUs .logos .fa-solid
+{
+    color: #05B772;
+    font-size: 1.1em;
+}
+.contactUs
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+.work 
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 50vh;
+    
+}
+.work .logos .fa-solid
+{
+    color: #05B772;
+    font-size: 1.1em;
+}
+@media (max-width: 768px) {
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:#fff;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+       }
+       .menu li:hover {
+        display: inline-block;
+        background-color:#fff;
+        transition: 0.3s ease;
+       }
+       .menu li + li {
+        margin-top: 12px;
+       }
+       input[type=checkbox]:checked ~ .menu{
+        display: block;
+       }
+       .hamburger {
+        display: block;
+       }
+       .aboutus
+       {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 60px;
+        height: 650px;
+        
+       }
+       .imgbx
+       {
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        background-clip: border-box;
+       }
+       .textbx
+       {
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0;
+        text-align: center;
+       }
+       .detail
+       {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+       }
+       .vision
+       {
+        width: 100%;
+        height: auto;
+       }
+       .mission
+       {
+        width: 100%;
+        height: auto;
+       }
+       .ourNeed
+       {
+        width: 100%;
+        height: 500px;
+       }
+       .textNeed
+       {
+        position: relative;
+        top: 100px;
+       }
+       .team
+       {
+        width: 100%;
+        height: auto;
+       }
+       .expert
+       {
+        width: 100%;
+        height: 100%;
+       }
+       .imgcards
+       {
+        display: flex;
+        flex-direction: column;
+       }
+       .imgcard1
+       {
+        width: 100%;
+       }
+       .imgcard2
+       {
+        width: 100%;
+       }
+       .imgcard3
+       {
+        width: 100%;
+       }
+       .final
+       {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+       }
+       .main
+       {
+        width: 100%;
+        height: 100%;
+
+       }
+       .info
+       {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       }
+       .inform
+       {
+        width: 100%;
+        text-align: center;
+        
+       }
+       .contactUs
+       {
+        width: 100%;
+        text-align: center;
+       }
+       .work
+       {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       }
+    }

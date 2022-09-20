@@ -179,9 +179,10 @@ section
 {
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
+    
     flex-wrap: wrap;
     margin-top: 40px;
+    
 }
 .menu .content .box
 {
@@ -367,6 +368,41 @@ section
     font-weight: 500;
     border: none;
     cursor: pointer;
+}
+
+.socialicon
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+    
+}
+
+.fa-brands
+{
+    font-size: 2em;
+    margin-right: 30px;
+}
+
+.fa-facebook
+{
+    color: blue;
+}
+.fa-instagram
+{
+    color: orange;
+}
+
+.fa-linkedin
+{
+    color: blue;
+}
+
+.fa-twitter
+{
+    color: blue;
 }
 .copyrightText
 {
